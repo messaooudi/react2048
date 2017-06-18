@@ -19,7 +19,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <br/>
+          <br />
           <small>Made by MESSAOUDI Oussama</small>
         </div>
         <div className="container">
@@ -170,7 +170,6 @@ class App extends Component {
         this.newTail()
         break;
       default:
-        this.setState({tails : tailStore.getHistory()})
         break;
     }
   }
